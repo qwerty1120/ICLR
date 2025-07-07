@@ -1,0 +1,55 @@
+[2025-06-25 13:03:48,838::train::INFO] Namespace(aggregation_method='sum', attention=True, condition_time=True, config='./config/drugs_default.yml', cutoff=10.0, device='cuda', edge_order=3, ema_decay=0.999, extend_radius=True, frag='ps', inv_sublayers=1, logdir='./logs', n_layers=6, nf=128, norm_constant=1, normalization_factor=1, num_steps=50, resume_iter=None, sigma=0.01, sin_embedding=False, tanh=True, type='hd', vel=False, vocab_len=50)
+[2025-06-25 13:03:48,838::train::INFO] {'train': {'seed': 2023, 'batch_size': 32, 'val_freq': 50, 'max_iters': 1000000, 'optimizer': {'type': 'adamw', 'lr': 0.0001, 'weight_decay': 1e-12, 'beta1': 0.9, 'beta2': 0.999}}, 'dataset': {'train': './data/GEOM/Drugs/train_data_40k.pkl', 'val': './data/GEOM/Drugs/val_data_5k.pkl', 'test': './data/GEOM/Drugs/test_data_1k.pkl'}}
+[2025-06-25 13:03:48,839::train::INFO] Loading datasets...
+[2025-06-25 13:08:22,928::train::INFO] Building model...
+[2025-06-25 13:08:27,516::train::INFO] [Train] Iter 00001 | Loss 172.51746 | Grad 77865.33 | LR 0.000100 
+[2025-06-25 13:08:27,978::train::INFO] [Train] Iter 00002 | Loss 478.57376 | Grad 112860.38 | LR 0.000100 
+[2025-06-25 13:08:28,526::train::INFO] [Train] Iter 00003 | Loss 334.38443 | Grad 184833.62 | LR 0.000100 
+[2025-06-25 13:08:28,999::train::INFO] [Train] Iter 00004 | Loss 173.65739 | Grad 68539.32 | LR 0.000100 
+[2025-06-25 13:08:29,424::train::INFO] [Train] Iter 00005 | Loss 145.66734 | Grad 129478.70 | LR 0.000100 
+[2025-06-25 13:08:29,840::train::INFO] [Train] Iter 00006 | Loss 108.79676 | Grad 83531.13 | LR 0.000100 
+[2025-06-25 13:08:30,248::train::INFO] [Train] Iter 00007 | Loss 140.99695 | Grad 142035.66 | LR 0.000100 
+[2025-06-25 13:08:30,663::train::INFO] [Train] Iter 00008 | Loss 95.59013 | Grad 17541.78 | LR 0.000100 
+[2025-06-25 13:08:31,101::train::INFO] [Train] Iter 00009 | Loss 1665.80798 | Grad 60166596.00 | LR 0.000100 
+[2025-06-25 13:08:31,519::train::INFO] [Train] Iter 00010 | Loss 65.64473 | Grad 8633.11 | LR 0.000100 
+[2025-06-25 13:08:31,945::train::INFO] [Train] Iter 00011 | Loss 189.45345 | Grad 15808.33 | LR 0.000100 
+[2025-06-25 13:08:32,359::train::INFO] [Train] Iter 00012 | Loss 97.51358 | Grad 6979.17 | LR 0.000100 
+[2025-06-25 13:08:32,786::train::INFO] [Train] Iter 00013 | Loss 136.65192 | Grad 5623.64 | LR 0.000100 
+[2025-06-25 13:08:33,217::train::INFO] [Train] Iter 00014 | Loss 125.85426 | Grad 12098.12 | LR 0.000100 
+[2025-06-25 13:08:33,619::train::INFO] [Train] Iter 00015 | Loss 80.26627 | Grad 10082.46 | LR 0.000100 
+[2025-06-25 13:08:34,031::train::INFO] [Train] Iter 00016 | Loss 99.53348 | Grad 3210.86 | LR 0.000100 
+[2025-06-25 13:08:34,450::train::INFO] [Train] Iter 00017 | Loss 116.93914 | Grad 5473.70 | LR 0.000100 
+[2025-06-25 13:08:34,859::train::INFO] [Train] Iter 00018 | Loss 111.00002 | Grad 3960.96 | LR 0.000100 
+[2025-06-25 13:08:35,284::train::INFO] [Train] Iter 00019 | Loss 138.24048 | Grad 18688.75 | LR 0.000100 
+[2025-06-25 13:08:35,714::train::INFO] [Train] Iter 00020 | Loss 151.56635 | Grad 6533.07 | LR 0.000100 
+[2025-06-25 13:08:36,204::train::INFO] [Train] Iter 00021 | Loss 149.39160 | Grad 9257.82 | LR 0.000100 
+[2025-06-25 13:08:36,677::train::INFO] [Train] Iter 00022 | Loss 141.78598 | Grad 8086.65 | LR 0.000100 
+[2025-06-25 13:08:37,106::train::INFO] [Train] Iter 00023 | Loss 163.91197 | Grad 5610.15 | LR 0.000100 
+[2025-06-25 13:08:37,525::train::INFO] [Train] Iter 00024 | Loss 62.92722 | Grad 15178.24 | LR 0.000100 
+[2025-06-25 13:08:37,979::train::INFO] [Train] Iter 00025 | Loss 155.66534 | Grad 38903.47 | LR 0.000100 
+[2025-06-25 13:08:38,403::train::INFO] [Train] Iter 00026 | Loss 135.44327 | Grad 14851.68 | LR 0.000100 
+[2025-06-25 13:08:38,833::train::INFO] [Train] Iter 00027 | Loss 116.13902 | Grad 20700.95 | LR 0.000100 
+[2025-06-25 13:08:39,250::train::INFO] [Train] Iter 00028 | Loss 113.36678 | Grad 10312.84 | LR 0.000100 
+[2025-06-25 13:08:39,683::train::INFO] [Train] Iter 00029 | Loss 123.09409 | Grad 7324.12 | LR 0.000100 
+[2025-06-25 13:08:40,123::train::INFO] [Train] Iter 00030 | Loss 104.47786 | Grad 7759.37 | LR 0.000100 
+[2025-06-25 13:08:40,547::train::INFO] [Train] Iter 00031 | Loss 120.18761 | Grad 10775.30 | LR 0.000100 
+[2025-06-25 13:08:40,976::train::INFO] [Train] Iter 00032 | Loss 153.50891 | Grad 6218.88 | LR 0.000100 
+[2025-06-25 13:08:41,394::train::INFO] [Train] Iter 00033 | Loss 127.57587 | Grad 4289.75 | LR 0.000100 
+[2025-06-25 13:08:41,827::train::INFO] [Train] Iter 00034 | Loss 123.75840 | Grad 3562.96 | LR 0.000100 
+[2025-06-25 13:08:42,255::train::INFO] [Train] Iter 00035 | Loss 142.01257 | Grad 8600.58 | LR 0.000100 
+[2025-06-25 13:08:42,687::train::INFO] [Train] Iter 00036 | Loss 143.21413 | Grad 11699.86 | LR 0.000100 
+[2025-06-25 13:08:43,185::train::INFO] [Train] Iter 00037 | Loss 179.32574 | Grad 8621.12 | LR 0.000100 
+[2025-06-25 13:08:43,635::train::INFO] [Train] Iter 00038 | Loss 132.83270 | Grad 10640.57 | LR 0.000100 
+[2025-06-25 13:08:44,077::train::INFO] [Train] Iter 00039 | Loss 123.59669 | Grad 25259.40 | LR 0.000100 
+[2025-06-25 13:08:44,487::train::INFO] [Train] Iter 00040 | Loss 110.63305 | Grad 9148.91 | LR 0.000100 
+[2025-06-25 13:08:44,926::train::INFO] [Train] Iter 00041 | Loss 98.75442 | Grad 4875.91 | LR 0.000100 
+[2025-06-25 13:08:45,355::train::INFO] [Train] Iter 00042 | Loss 110.58526 | Grad 16585.37 | LR 0.000100 
+[2025-06-25 13:08:45,792::train::INFO] [Train] Iter 00043 | Loss 108.40974 | Grad 22717.46 | LR 0.000100 
+[2025-06-25 13:08:46,224::train::INFO] [Train] Iter 00044 | Loss 91.50151 | Grad 9201.57 | LR 0.000100 
+[2025-06-25 13:08:46,649::train::INFO] [Train] Iter 00045 | Loss 103.81235 | Grad 5279.24 | LR 0.000100 
+[2025-06-25 13:08:47,071::train::INFO] [Train] Iter 00046 | Loss 101.19620 | Grad 18575.08 | LR 0.000100 
+[2025-06-25 13:08:47,484::train::INFO] [Train] Iter 00047 | Loss 79.48177 | Grad 12145.80 | LR 0.000100 
+[2025-06-25 13:08:47,908::train::INFO] [Train] Iter 00048 | Loss 136.17053 | Grad 8244.19 | LR 0.000100 
+[2025-06-25 13:08:48,334::train::INFO] [Train] Iter 00049 | Loss 108.69167 | Grad 3626.80 | LR 0.000100 
+[2025-06-25 13:08:48,746::train::INFO] [Train] Iter 00050 | Loss 95.64236 | Grad 16891.58 | LR 0.000100 
+[2025-06-25 13:10:38,561::train::INFO] Terminating...
